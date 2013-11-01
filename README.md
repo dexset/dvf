@@ -26,6 +26,6 @@ size|name
   2 | Mask ID
   
 # LAYER
-:---|:---
-  8 | Size of data( in bytes )
+:--------------|:---
+  8            | Size of data( in bytes )
   Size of data | data 
