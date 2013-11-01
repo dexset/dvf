@@ -1,34 +1,35 @@
 ### FILE METADATA
-size|name  
-:---|:---
-  4 | "SVF "
-  2 | Version
+size|  name         | type  
+:---|:--------------|:------
+  4 | "SVF "        | char[4]
+  1 | Major version | ubyte
+  1 | Minor version | ubyte
   
 ###FILE HEADER
 
-size|name
-:---|:---
-  2 | Layer count
-  2 | Resolution X
-  2 | Resolution Y
+size|  name        | type
+:---|:-------------|:------
+  2 | Layer count  | ushort
+  2 | Resolution X | ushort
+  2 | Resolution Y | ushort
   
 ### LAYER HEADER
 
-size|name
-:---|:---
-  2 | ID
-256 | Name
-  1 | Component count
-  1 | Component type
-  2 | Position X
-  2 | Position Y
-  2 | Width
-  2 | Height
-  2 | Mask ID
+size| name            | type
+:---|:----------------|:---------
+  2 | ID              | ushort
+256 | Name            | char[256]
+  1 | Component count | ubyte
+  1 | Component type  | ubyte
+  2 | Position X      | short
+  2 | Position Y      | short
+  2 | Width           | ushort
+  2 | Height          | ushort
+  2 | Mask ID         | ushort
   
 ### LAYER
 
-size|name
-:---|:---
-  8            | Size of data( in bytes )
-  Size of data | data 
+size           | name                     | type
+:--------------|:-------------------------|:-----
+  8            | Size of data( in bytes ) | ulong
+  Size of data | data                     | Component type
