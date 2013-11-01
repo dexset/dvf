@@ -1,9 +1,10 @@
-# FILE METADATA
+### FILE METADATA
 size|name  
 :---|:---
   4 | "SVF "
   2 | Version
-#FILE HEADER
+  
+###FILE HEADER
 
 size|name
 :---|:---
@@ -11,7 +12,7 @@ size|name
   2 | Resolution X
   2 | Resolution Y
   
-# LAYER HEADER
+### LAYER HEADER
 
 size|name
 :---|:---
@@ -25,7 +26,7 @@ size|name
   2 | Height
   2 | Mask ID
   
-# LAYER
+### LAYER
 
 size|name
 :---|:---
