@@ -1,16 +1,16 @@
-### FILE METADATA
+# FILE METADATA
 size|name  
 :---|:---
   4 | "SVF "
   2 | Version
-###FILE HEADER
+#FILE HEADER
 
 size|name
 :---|:---
   2 | Layer count
   2 | Resolution X
   2 | Resolution Y
-### LAYER HEADER
+# LAYER HEADER
 
 size|name
 :---|:---
