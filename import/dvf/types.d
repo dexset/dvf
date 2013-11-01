@@ -3,8 +3,8 @@ module dvf.types;
 struct DVF_FileHeader
 {
     char[4] type;
-    ushort major;
-    ushort minor;
+    ubyte major;
+    ubyte minor;
 }
 
 struct DVF_FileMeta
