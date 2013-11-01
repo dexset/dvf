@@ -10,12 +10,12 @@ size|name
   2 | Layer count
   2 | Resolution X
   2 | Resolution Y
+  
 # LAYER HEADER
 
 size|name
 :---|:---
   2 | ID
-  8 | Size in bytes
 256 | Name
   1 | Component count
   1 | Component type
@@ -24,4 +24,8 @@ size|name
   2 | Width
   2 | Height
   2 | Mask ID
-  ? | data
+  
+# LAYER
+:---|:---
+  8 | Size of data( in bytes )
+  Size of data | data 
