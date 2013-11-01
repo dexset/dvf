@@ -1,0 +1,6 @@
+{
+    "name": "dvf",
+    "targetType": "sourceLibrary",
+    "importPaths": [ "import" ],
+    "sourcePaths": [ "import" ]
+}
