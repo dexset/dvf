@@ -15,7 +15,7 @@ size|name
 size|name
 :---|:---
   2 | ID
- 64 | Size in bytes
+  8 | Size in bytes
 256 | Name
   1 | Component count
   1 | Component type
