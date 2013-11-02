@@ -21,7 +21,7 @@ struct DVF_LayerHeader
     ubyte type;
     short[2] pos;
     ushort[2] res;
-    ushort mask_id;
+    short mask_id;
 }
 
 enum
