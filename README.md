@@ -1,7 +1,7 @@
 ### FILE METADATA
 size|  name         | type  
 :---|:--------------|:------
-  4 | "SVF "        | char[4]
+  4 | "DVF "        | char[4]
   1 | Major version | ubyte
   1 | Minor version | ubyte
   
